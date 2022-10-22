@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:gravity="center">
+
+    <!-- Include your Logo Here -->
+<include layout="@layout/company_logo"/>
+
+    <TextView
+            android:text="Some View"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:layout_marginTop="50dp"/>
+
+    <TextView
+            android:text="Some Other View"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:layout_marginTop="20dp"/>
+
+    <TextView
+            android:text="Yet Another View"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:layout_marginTop="20dp"/>
+    <Button
+            android:text="Some Action"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2"
+            android:layout_margin="40dp"/>
+
+</LinearLayout>

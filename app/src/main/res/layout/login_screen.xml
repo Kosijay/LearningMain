@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+
+    <LinearLayout android:orientation="vertical" android:padding="32dp" android:gravity="center" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView android:layout_height="200dp" android:layout_width="200dp"
+        app:srcCompat="@drawable/img_logo" android:id="@+id/img_logo"
+        app:tint="@android:color/darker_gray" />
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/et_email" android:textSize="20sp" android:inputType="textEmailAddress" android:hint="Enter Email" android:layout_marginTop="20dp"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/et_password" android:textSize="20sp" android:inputType="textPassword" android:hint="Enter Password" android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="32dp"
+        android:text="Login" />
+
+
+    -<LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent">
+
+    <TextView android:gravity="center" android:layout_height="wrap_content" android:layout_width="0dp" android:id="@+id/txv_signup" android:textSize="18sp" android:text="Signup" android:layout_weight="1"/>
+
+    <TextView android:gravity="center" android:layout_height="wrap_content" android:layout_width="0dp" android:id="@+id/txv_forgot_pwd" android:textSize="18sp" android:text="Forgot Password" android:layout_weight="1"/>
+
+</LinearLayout>
+
+</LinearLayout>
